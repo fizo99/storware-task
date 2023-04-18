@@ -1,6 +1,7 @@
 ### How to run:
-1. `mvn clean package`
-2. `java -jar target/storware-task-1.0-SNAPSHOT.jar "FILE_PATH"`  
+1. Be sure your CLI location is on the same level as pom.xml file 
+2. Build project with `mvn clean package` 
+3. Run application with `java -jar target/storware-task-1.0-SNAPSHOT.jar "FILE_PATH"`  
 replace FILE_PATH with an absolute path to file with math expressions.  
 example: java -jar target/storware-task-1.0-SNAPSHOT.jar "C:/testfile"
 
